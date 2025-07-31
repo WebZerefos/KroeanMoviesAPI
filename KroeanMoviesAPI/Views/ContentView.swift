@@ -36,6 +36,11 @@ struct ContentView: View {
                            
                    }
                    Text(movie.title)
+                       .font(.headline)
+                       .lineLimit(1)
+                       .fixedSize()
+                       .padding(.leading, 8)
+                       .foregroundStyle(.black)
                    Spacer()
                    
                    VStack{
