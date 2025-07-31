@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  KroeanMoviesAPI
-//
-//  Created by Victor Zerefos on 16/07/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -52,7 +45,6 @@ struct ContentView: View {
                 }
                 .navigationTitle("Korean Movies")
                 .listStyle(.plain)
-                
             }
             .task {
                 await viewModel.fetchMovies()

@@ -1,7 +1,5 @@
-
 import Foundation
 import SwiftUI
-
 
 struct Response: Codable {
     let results: [Movie]
