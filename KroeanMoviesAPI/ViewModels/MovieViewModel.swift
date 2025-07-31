@@ -1,9 +1,3 @@
-//
-//  MovieViewModel.swift
-//  KroeanMoviesAPI
-//
-//  Created by Victor Zerefos on 16/07/25.
-//
 
 import Foundation
 import SwiftUI
